@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="testSuite">
+<test name="testname">
+<!-- 
+<classes>
+<class name="com.proware.tests.PlaceSelectionTest"/>
+</classes>
+ -->
+ <packages>
+ <!-- groups>
+ <run>
+ <exclude name="testgroup"/>
+ </run>
+ </groups-->>
+ 
+ <package name="com.proware.tests">
+  
+  <classes>
+ <class name="com.proware.tests.PlaceSelectionTest">
+ <methods>
+ <exclude name="SourceSel"/>
+ </methods>
+ </class>
+ </classes>
+ 
+ </package>
+ </packages>
+</test>
+</suite>
